@@ -1,4 +1,12 @@
-# coding: latin-1
+"""
+==================
+Tensors
+==================
+
+How to work with numpy tensors.
+
+"""
+print(__doc__)
 
 # Python posee una estructura de datos primaria que se denomina lista
 # NumPy extiende esa estructura para conformar tensores, que son las unidades básicas de procesamiento.
@@ -34,7 +42,7 @@ print (y[:,2])
 
 print ('Type of an array:' + str(y.dtype))
 
-print ('Reshaping arrays....')
+print ('Fundamental: Reshaping arrays....')
 f = np.array(range(100))
 fr = f.reshape(10,10)
 fr[1:-1,1:-1]
@@ -63,6 +71,7 @@ print (y)
 print (np.zeros((30,30)))
 print (np.ones((29,2)))
 
+print("Python Lists =======================")
 a=[1,2,3,4,5]
 
 print (a)

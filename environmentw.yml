@@ -13,7 +13,7 @@ dependencies:
   - seaborn
   - mkl
   - pyqt
-  - traitsui
+  - altair
   - pytest
   - testpath
   - numpy
@@ -25,13 +25,16 @@ dependencies:
   - joblib
   - umap-learn
   - scipy
+  - vega_datasets
   - pyface
+  - traitsui
   - jupyter
   - pytest-timeout
   - pytest-cov
   - numpydoc
   - spyder
   - psutil
+  - opencv
   - h5py
   - pillow
 prefix: /anaconda2/envs/mne3
